@@ -89,7 +89,7 @@ Q3D.Config = {
   northArrow: {
     color: 0x8b4513,
     cameraDistance: 30,
-    enabled: false
+    enabled: true
   },
 
   // animation

@@ -44,7 +44,7 @@ function ViewHelper( editorCamera, container ) {
 	var yAxis = new THREE.Mesh( geometry, getAxisMaterial( color2 ) );
 	var zAxis = new THREE.Mesh( geometry, getAxisMaterial( color3 ) );
 
-	yAxis.rotation.z = Math.PI / 2;
+        yAxis.rotation.z = Math.PI / 2;
 	zAxis.rotation.y = - Math.PI / 2;
 
 	this.add( xAxis );
